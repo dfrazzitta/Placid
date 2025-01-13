@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body 
+{
+	background-color: #eeeef0;
+	background-image:url(Images/LP_BG.jpg);
+	background-repeat:repeat-x;
+	margin:0px;
+	font-family: "Comic Sans MS", cursive;"
+	font-size:18px;
+}
+
+h1{
+font-size:36px;
+font-weight:bold;
+color:#c45961;
+}
+
+h2{
+font-size:24px;
+font-weight:bold;
+color:#0082cd;
+}
+
+li{
+	margin:5px 0px;
+}
+
+legend{
+	color: #0066FF;
+	font-weight: bold;
+}
+
+.Bold{font-weight:bold;}
+.Italic{font-style:inherit;}
+
+.Twelve{font-size:12px;}
+.Fourteen{font-size:14px;}
+.Sixteen{font-size:16px;}
+.Eighteen{font-size:18px;}
+.Twenty{font-size:20px;}
+.TwentyFour{font-size:24px;}
+.TwentyEight{font-size:28px;}
+.Thirty{font-size:30px;}
+.ThirtyTwo{font-size:32px;}
+.ThirtyFour{font-size:34px;}
+
+/*Colors*/
+.Blue{color:#0082cd;}
+.Light_Blue{color:#60a8d2;}
+
+.Red{color:#c45961;}
+.Light_Red{color:#c78186;}
+
+.BG_Blue{background-color:#0082cd;}
+.BG_Light_Blue{background-color:#60a8d2;}
+
+.BG_Red{background-color:#c45961;}
+.BG_Light_Red{background-color:#c78186;}
+
+.Orange{color:#e68d49;}
+.Light_Orange{color:#e3a678;}
+
+.Yellow{color:#dcd77b;}
+.Light_Yellow{color:#dddbad;}
+
+.Black{color:#000000;}
+.White{color:#FFFFFF;}
+
+.Pearl{color:#eeeef0;}
+
+/*.Cream{color:#f7ebdf;}*/
+
+.my-class {
+	background: red;
+}
+
+/* The style for the links */
+a:link
+{	
+	font-size: 18px;
+	font-family:"Comic Sans MS", cursive;"
+	font-weight:bold;
+	color: #c45961;
+	text-decoration:none;
+}
+a:visited
+{	
+	font-size: 18px;
+	font-family:"Comic Sans MS", cursive;"
+	font-weight: bold;
+	color: #c45961;
+	text-decoration:none;
+}
+a:hover
+{	
+	font-size: 18px;
+	font-family:"Comic Sans MS", cursive;"
+	font-weight: bold;
+	color: #0082cd;
+	text-decoration:underline;
+}
+a:active
+{	
+	font-size: 18px;
+	font-family:"Comic Sans MS", cursive;"
+	font-weight: bold;
+	color: #0082cd;
+	text-decoration:none;
+}
+
+/* The style for the links */
+a.menubar:link
+{	
+	font-size: 15px;
+	font-family:"Comic Sans MS", cursive;"
+	font-weight:bold;
+	color: #000000;
+	text-decoration:underline;
+}
+a.menubar:visited
+{	
+	font-size: 15px;
+	font-family:"Comic Sans MS", cursive;"
+	font-weight:bold;
+	color: #000000;
+	text-decoration:underline;
+}
+a.menubar:hover
+{	
+	font-size: 15px;
+	font-family:"Comic Sans MS", cursive;"
+	font-weight:bold;
+	color: #60a8d2;
+	text-decoration:underline;
+}
+a.menubar:active
+{	
+	font-size: 15px;
+	font-family:"Comic Sans MS", cursive;"
+	font-weight:bold;
+	color: #60a8d2;
+	text-decoration:underline;
+}
