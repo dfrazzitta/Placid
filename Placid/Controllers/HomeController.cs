@@ -24,21 +24,7 @@ namespace Placid.Controllers
             return View();
         }
 
-
-        public IActionResult test()
-        {
-            return View();
-        }
-
-
-        public IActionResult test2()
-        {
-            return View();
-        }
-        public IActionResult test3()
-        {
-            return View();
-        }
+ 
 
         public IActionResult About()
         {
