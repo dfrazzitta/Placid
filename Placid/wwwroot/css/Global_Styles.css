@@ -72,6 +72,13 @@ legend{
 
 /*.Cream{color:#f7ebdf;}*/
 
+
+.img-h {
+	height: 100%;
+	border-radius: 55px;
+}  
+
+
 .my-class {
 	background: red;
 }

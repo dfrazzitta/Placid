@@ -20,3 +20,13 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+
+.img-h {
+    height: 100%;
+    border-radius: 55px;
+}
+
+.imgx {
+    border-radius: 50%;
+}
