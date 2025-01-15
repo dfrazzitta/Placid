@@ -13,7 +13,7 @@
     <script src="~/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
     <link href="~/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
 </head>
-<body style="background-image: url('Images/Google_Map.jpg')">
+<body style="background-color:cyan">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
@@ -30,6 +30,12 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Notes">Add Notes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Read">Please Read</a>
+                        </li>
                         @*
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="test">test</a>
@@ -40,24 +46,24 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="test3">test3</a>
                         </li>
-                        *@
+                        
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="home" asp-action="test9">Base Page Image</a>
-                        </li>
+                        </li> *@
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container-fluid">
+        <main role="main" class="pb-1">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
+        <div class="container-fluid">
             &copy; 2025 - Placid - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>

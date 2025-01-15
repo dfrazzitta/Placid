@@ -31,6 +31,18 @@ namespace Placid.Controllers
             return View();
         }
 
+        public IActionResult Notes()
+        {
+            return View();
+        }
+
+
+        public IActionResult Read()
+        {
+            return View();
+        }
+
+
         public IActionResult Calender()
         {
             return View();

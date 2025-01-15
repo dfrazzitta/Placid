@@ -23,16 +23,19 @@
 
  
 </style>
-<div class="container my-class">
+<div class="container-fluid my-class">
     <div class="row bg-info ">
-        <div class="col-3" style="background-color:coral; ">
+        <div class="col-3" style="background-color:coral; max-width: 200px; min-width: 150px; font-size:30pt;">
             <div class="rows p-3 mb-2 bg-info text-white">
                 <h2 align="center" style="margin:1px 1px; padding:0px 0px;">
-                    55+ Resident Owned Community
+                    55+
+                    Resident Owned
+                    @* Community  *@
                 </h2>
             </div>
-            <br />
-            <br />
+
+            <hr>
+
             <p>
                 <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="0" style="padding-right:5px;">
                 <a href="@Url.Action("Index", "home")" class="menubar">Home</a>
@@ -52,13 +55,28 @@
             </p>
             <p>
                 <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="0" style="padding-right:5px;">
-                <a href="@Url.Action("Homes", "home")" class="menubar">Homes Sale</a>
+                <a href="@Url.Action("Homes", "home")" class="menubar">Sale</a>
             </p>
             <p>
                 <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="0" style="padding-right:5px;">
                 <a href="@Url.Action("Calender", "home")" class="menubar">Calendar</a>
             </p>
             <hr>
+
+            <p>
+                <strong style="font-size:15pt">Lake Placid MHP</strong>
+            </p>
+            <p style="font-size:15pt">
+
+                980 7th St. NW
+
+                Largo, FL 33770
+            </p>
+            <p style="font-size:15pt">
+                <a class="menubar" style="font-size:18px;" href="mailto:info@lakeplacidpark.com">Email</a>
+                <script type="text/javascript" src="http://voap.weather.com/weather/oap/USFL0271?template=TRVLV&par=3000000007&unit=0&key=twciweatherwidget"></script>
+            </p>
+            <br>
             <div class="dropdown">
                 <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
